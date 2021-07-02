@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import MemeContainer from './components/MemeContainer';
 import reportWebVitals from './reportWebVitals';
+import '../src/css/index.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MemeContainer name='Ingrese usuario' />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
